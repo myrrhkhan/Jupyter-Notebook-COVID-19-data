@@ -14,9 +14,9 @@ To recreate:
 Python download located here: https://www.python.org/downloads/ Be sure to click "Install PIP Commands" during installation.
 To download libraries:
   Open command line, type the following:
-    pip install pandas
-    pip install matplotlib
-    pip install jupyter notebook
+    "pip install pandas"
+    "pip install matplotlib"
+    "pip install jupyter notebook"
     
 To open Jupyter Notebook, open command line and type "jupyter notebook". Keep that window open until you are done using Jupyter Notebook.
 
