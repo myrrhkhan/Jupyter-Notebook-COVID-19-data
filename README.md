@@ -1,14 +1,8 @@
-# Jupyter-Notebook-COVID-19-data
-
-FOR BEST RESULTS, choose master as the branch. I have no idea why there is another tree option.
-
 Uses python and the libraries pandas and matplot lib, as well as data from Johns Hopkins, Google, and Apple, to make graphs via Jupyter Notebook
 (It's pronounced "Jupiter," not "Ju-PIE-ter," kaifergerstrom.)
 
-There is a link to the Johns Hopkins Repository as a submodule. I've been having a little bit of trouble with the submodules, so bear with me here.
-Johns Hopkins official map: coronavirus.jhu.edu Low-key looks inaccurate.
-Google Data: https://www.google.com/covid19/mobility/ Can be downloaded as PDF files or CSV files (as used here).
-Apple Data: https://www.apple.com/covid19/mobility Can be downloaded as CSV, can't be downloaded as individual PDFs.
+Branch:
+Google Mobility Data: analyzes Google's Mobility data, located at https://www.google.com/covid19/mobility/ Can be downloaded as PDF files or CSV files (as used here).
 
 To recreate:
 Python download located here: https://www.python.org/downloads/ Be sure to click "Install PIP Commands" during installation.
