@@ -1,4 +1,4 @@
-# Jupyter-Notebook-COVID-19-data
+# Jupyter-Notebook-COVID-19-data. Yeah i know im basic everyones been making covid trackers and yes i know this repo has been counted in covidtrackertracker.com
 
 Uses python and the libraries pandas and matplot lib, as well as data from Johns Hopkins, Google, and Apple, to make graphs via Jupyter Notebook
 (It's pronounced "Jupiter," not "Ju-PIE-ter," kaifergerstrom.)
