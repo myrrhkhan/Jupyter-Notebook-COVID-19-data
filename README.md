@@ -1,7 +1,5 @@
 # Jupyter-Notebook-COVID-19-data
 
-FOR BEST RESULTS, choose master as the branch. I have no idea why there is another tree option.
-
 Uses python and the libraries pandas and matplot lib, as well as data from Johns Hopkins, Google, and Apple, to make graphs via Jupyter Notebook
 (It's pronounced "Jupiter," not "Ju-PIE-ter," kaifergerstrom.)
 
