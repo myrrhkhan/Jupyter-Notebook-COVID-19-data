@@ -16,6 +16,7 @@ df
 
 
 # %%
+usa = df['country_region'] == 'United States'
 df[usa] = df[df['country_region'] == 'United States']
 #Makes new data frame in which all of the data table values have united states as country_region. Source: https://towardsdatascience.com/apply-and-lambda-usage-in-pandas-b13a1ea037f7
 #df[usa] is a new dataframe.
@@ -32,7 +33,20 @@ for county in counties:
     s = df[df['sub_region_2'] == county]
     plt.plot(s['date'], s['retail_and_recreation_percent_change_from_baseline'], label = counties)
   
-plt.legend
-plt.show
+plt.legend()
+plt.show()
 
-Google Mobility Data
+
+# %%
+countries = ['United States']
+states = ['Virginia']
+counties = ['Fairfax County', 'Fairfax', 'Loudoun County', 'Stafford County']
+
+for county in counties:
+    s = df[df['sub_region_2'] == county]
+    plt.plot(s['date'], s['retail_and_recreation_percent_change_from_baseline'], label = counties)
+
+plt.legend()
+plt.show()
+
+#Google Mobility Data
