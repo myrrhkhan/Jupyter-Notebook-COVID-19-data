@@ -16,21 +16,11 @@ df
 
 
 # %%
-for country in countries:
-    #trying to limit the data to us
-    c = df[df['country_region'] == country]
-    usa = df.astype(str).sum(axis=1).str.contains('United States')
-    #df[country] makes new dataframe thingy
-    #df.astype(str) converts all the things in the data table to string
-    #.str.contains('United States') looks to see if column's value contains 'United States'
-    #.sum(axis=1) concatenates horizontally
-    #What's left: print only the values in the column in which the string parameters above are true
-    #error: DataFrame is not callable
-
-usa
-usa[usa]
-usa[usa].index
-df[df('country_region').isin(usa[usa].index)]
+df[usa] = df[df['country_region'] == 'United States']
+#Makes new data frame in which all of the data table values have united states as country_region. Source: https://towardsdatascience.com/apply-and-lambda-usage-in-pandas-b13a1ea037f7
+#df[usa] is a new dataframe.
+#df['country_region]=='United States' takes all of the data with US in it, and putting "df[]" around it makes a data table of it.
+df[usa]
 
 
 # %%
@@ -45,4 +35,4 @@ for county in counties:
 plt.legend
 plt.show
 
-#Google Mobility Data
+Google Mobility Data
